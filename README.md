@@ -12,10 +12,12 @@
    parameters into your Zabbix agent's
    [`Include`](https://www.zabbix.com/documentation/3.0/manual/appendix/config/zabbix_agentd)
    directory (usually `/etc/zabbix/zabbix_agentd.d`).
-3. Import the [`hp-smart-array-template.xml`](hp-smart-array-template.xml) into
+3. Copy the content of the scripts directory to `/usr/local/bin/`
+4. Make sure the scripts are executable `chmod +x /usr/local/bin/hp-raid-*`
+4. Import the [`hp-smart-array-template.xml`](hp-smart-array-template.xml) into
    your Zabbix server.
-4. Add the template to your host (or stack template)
-5. Check if new data arrives
+5. Add the template to your host (or stack template)
+6. Check if new data arrives
 
 
 ## Tested on:

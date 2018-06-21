@@ -1,2 +1,2 @@
 # Description:	HP SmartArray data gathering and analyze
-0 */1 * * *	root /usr/local/sbin/hp-raid-data-processor.sh
+0 */1 * * *	root /usr/local/bin/hp-raid-data-processor.sh
